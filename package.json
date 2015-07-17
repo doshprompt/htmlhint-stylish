@@ -3,20 +3,32 @@
   "version": "1.0.2",
   "description": "A Stylish reporter for HTMLHint",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "scripts": {
     "test": "mocha"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doshprompt/htmlhint-stylish.git"
   },
   "keywords": [
     "htmlhint",
-    "stylish",
     "gulp-htmlhint",
     "jshint-stylish",
     "reporter",
-    "htmlhint-reporter"
+    "htmlhint-reporter",
+    "formatter",
+    "format",
+    "lint",
+    "validate",
+    "stylish",
+    "elegant",
+    "pretty"
   ],
   "author": "Rahul Doshi <rahuld223@yahoo.com>",
   "license": "MIT",
