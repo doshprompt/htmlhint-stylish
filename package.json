@@ -1,0 +1,30 @@
+{
+  "name": "htmlhint-stylish",
+  "version": "1.0.0",
+  "description": "A Stylish reporter for HTMLHint",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doshprompt/htmlhint-stylish.git"
+  },
+  "keywords": [
+    "htmlhint",
+    "stylish",
+    "gulp-htmlhint",
+    "jshint-stylish",
+    "reporter",
+    "htmlhint-reporter"
+  ],
+  "author": "Rahul Doshi <rahuld223@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doshprompt/htmlhint-stylish/issues"
+  },
+  "homepage": "https://github.com/doshprompt/htmlhint-stylish#readme",
+  "dependencies": {
+    "jshint-stylish": "^2.0.1"
+  }
+}
