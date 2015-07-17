@@ -14,10 +14,12 @@ $ npm install --save-dev htmlhint-stylish
 ### [gulp-htmlhint](https://www.npmjs.com/package/gulp-htmlhint)
 
 ```js
+var stylish = require('htmlhint-stylish');
+
 gulp.task('default', function () {
 	gulp.src(['index.html'])
 		.pipe(htmlhint('.htmlhintrc'))
-		.pipe(htmlhint.reporter('htmlhint-stylish'));
+		.pipe(htmlhint.reporter(stylish));
 ```
 
 ## License
