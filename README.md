@@ -1,4 +1,4 @@
-# htmlhint-stylish
+# htmlhint-stylish [![Build Status](https://travis-ci.org/doshprompt/htmlhint-stylish.svg)](https://travis-ci.org/doshprompt/htmlhint-stylish)
 
 > Stylish reporter for [HTMLHint](https://htmlhint.com)
 
