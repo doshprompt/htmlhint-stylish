@@ -21,13 +21,15 @@ $ npm install --save-dev htmlhint-stylish
 ### [gulp-htmlhint](https://www.npmjs.com/package/gulp-htmlhint)
 
 ```js
-var gulp = require('gulp'),
-    stylish = require('htmlhint-stylish');
+var gulp = require('gulp');
 
 gulp.task('default', function () {
     gulp.src(['index.html'])
         .pipe(htmlhint('.htmlhintrc'))
-        .pipe(htmlhint.reporter(stylish));
+        .pipe(htmlhint.reporter('htmlhint-stylish'))
+        .pipe(htmlhint.failReporter({
+            supress: true
+        })); // if you want to your task to fail on error(s)
 ```
 
 ## License
