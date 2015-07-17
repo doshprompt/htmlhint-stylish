@@ -1,7 +1,7 @@
 var stylish = require('jshint-stylish');
 
 module.exports = function(file) {
-    stylish.reporter(file.htmlhint.messages.map(function(errMsg) {
+    return stylish.reporter(file.htmlhint.messages.map(function(errMsg) {
         return {
             file: errMsg.file,
             error: {

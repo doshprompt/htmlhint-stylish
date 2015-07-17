@@ -1,6 +1,6 @@
 {
   "name": "htmlhint-stylish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Stylish reporter for HTMLHint",
   "main": "index.js",
   "scripts": {
