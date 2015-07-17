@@ -1,7 +1,13 @@
 # htmlhint-stylish
 
 Stylish reporter for [htmlhint](https://htmlhint.com),
-uses [jshint-stylish](https://github.com/sindresorhus/jshint-stylish) to do the actual reporting.
+Uses [jshint-stylish](https://github.com/sindresorhus/jshint-stylish) to do the actual reporting:
+
+![](screenshot.png)
+
+Compared to the default reporter:
+
+![](screenshot-default-reporter.png)
 
 ## Install
 
